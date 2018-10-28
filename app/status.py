@@ -1,0 +1,3 @@
+OK_K = 200
+NOTFOUND_K = 404
+ROOTPAGE_K = "root"

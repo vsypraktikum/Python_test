@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="de" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="header">
+        <h1>Kunde erfassen</h1>
+    </div>
+
+    <form action= "/page/save/" method= "POST">
+        <div id="details_md_links">
+            <label for="bezeichung">Bezeichnung: 
+	    <input id="bezeichnung" name="bezeichnung" value="$bezeichnung"/>
+            </label>
+            <label for="ap">Ansprechpartner: 
+	    <input id="ap" name="ap" value="$ap"/>
+            </label>
+        </div>
+
+        <div id="details_md_rechts">
+            <label for="id_s">
+                ID: <input id="id_s" name="id_s" value="$id_s"/>
+            </label>
+            <label for="nummer">
+                Nummer: <input id="nummer" name="nummer" value="$nummer"/>
+            </label>
+            <label for="ort">
+                Ort: <input id="ort" name="ort" value="$ort"/>
+            </label>
+        </div>
+	<input type="submit" value="Speichern" />
+    </form>
+
+    <div id="footer">
+        <a href="page/edit/$title">anzeigen</a>
+    </div>
+</body>
+</html>
