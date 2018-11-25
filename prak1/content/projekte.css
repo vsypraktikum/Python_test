@@ -1,0 +1,31 @@
+.likeabutton 
+{
+    text-decoration: none; font: menu;
+    padding: 2px 8px;
+	width: 150px;
+    background: ButtonFace; color: ButtonText;
+    border-style: solid; border-width: 2px;
+    border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+}
+
+.likeabutton:active 
+{
+    border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
+}
+
+label {
+	width: 150px;
+}
+
+th {
+	width: 150px;
+	background-color: grey;
+}
+
+.Mark {
+	background-color: #E6E6E6;
+}
+
+.noMark {
+	background-color: white;
+}
